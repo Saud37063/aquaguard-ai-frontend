@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AquaGuard AI | Smart Water Safety</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">💧 AquaGuard AI</div>
+    <div class="nav-links">
+      <a href="#about">Features</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#sdg">SDG 6</a>
+      <a href="#chat" class="cta-btn">Check Water Safety</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <span class="eyebrow">🌊 SDG 6 · Clean Water & Sanitation</span>
+    <h1>Know If Your Water Is Safe.<br>
+        <span class="accent">Before It's Too Late.</span></h1>
+    <p class="hero-subtext">AI-powered water quality analysis aligned with BIS IS 10500<br>and WHO standards — for every Indian household.</p>
+    
+    <div class="cta-group">
+      <a href="#chat" class="btn-primary">Check Water Safety</a>
+      <a href="#how-it-works" class="btn-secondary">Learn More</a>
+    </div>
+
+    <div class="badges">
+      <span>🔒 No Data Stored</span>
+      <span>📋 BIS IS 10500 Verified</span>
+      <span>🏛️ WHO Standards</span>
+    </div>
+  </section>
+
+  <section id="about" class="container">
+    <div class="section-header">
+      <h2>Everything you need for water safety</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <span class="icon">⚗️</span>
+        <h3>Instant risk assessment</h3>
+        <p>Enter any parameter value and get a BIS-verified risk level in seconds — no expertise needed.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">🏛️</span>
+        <h3>Government scheme finder</h3>
+        <p>Discover Jal Jeevan Mission, National Fluorosis Control Programme, and more — with direct links.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">🚨</span>
+        <h3>Batch alert generation</h3>
+        <p>Upload a CSV of district water readings and get auto-generated public health advisories instantly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="container bg-light">
+    <div class="section-header">
+      <h2>How AquaGuard AI works</h2>
+      <p>Three steps to understanding your water safety.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-number">1</div>
+        <h3>Enter your reading</h3>
+        <p>Type your water parameter value or upload a district test report CSV.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">2</div>
+        <h3>AI analyses it</h3>
+        <p>IBM Granite reads the BIS IS 10500 standard and classifies your risk level instantly.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-number">3</div>
+        <h3>Take action</h3>
+        <p>Get health advisories, scheme links, and authority contacts — ready to act.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sdg" class="sdg-section container">
+    <div class="sdg-content">
+      <div class="sdg-badge">SDG 6</div>
+      <h2>Aligned with UN SDG 6</h2>
+      <p>Clean water and sanitation for all — AquaGuard AI directly supports this mission by empowering Indian communities with AI-driven water safety intelligence.</p>
+      <ul class="sdg-list">
+        <li>💧 Faster identification of contaminated water sources</li>
+        <li>🏥 Preventing waterborne disease in vulnerable communities</li>
+        <li>🤝 Connecting citizens to clean water government schemes</li>
+        <li>📊 Supporting municipal bodies with batch alert systems</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="chat" class="container chat-section">
+    <div class="section-header">
+      <h2>Check your water safety now</h2>
+      <p>Free to use. No sign-up required. BIS-verified results.</p>
+    </div>
+    <div class="iframe-container">
+      <iframe 
+        src="https://aquaguardaiadvisorysystem.streamlit.app" 
+        width="100%" 
+        height="700px" 
+        style="border: none;">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-grid container">
+      <div class="footer-col">
+        <h4>AquaGuard AI</h4>
+        <p>AI-powered water safety for every Indian community.</p>
+        <p class="tech-stack">⚡ IBM Granite + LangChain + ChromaDB</p>
+      </div>
+      <div class="footer-col">
+        <h4>Government Resources</h4>
+        <a href="https://jaljeevanmission.gov.in" target="_blank">Jal Jeevan Mission</a>
+        <a href="https://bis.gov.in" target="_blank">BIS IS 10500 Standard</a>
+        <a href="https://swachhbharatmission.gov.in" target="_blank">Swachh Bharat Mission</a>
+        <a href="https://cpcb.nic.in" target="_blank">Central Pollution Control Board</a>
+      </div>
+      <div class="footer-col">
+        <h4>SDG Commitment</h4>
+        <p>Aligned with <strong>UN SDG 6</strong> — Clean Water and Sanitation</p>
+        <p>Secondary: <strong>UN SDG 3</strong> — Good Health and Well-being</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 AquaGuard AI · Built for the 1M1B AI for Sustainability Internship</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
